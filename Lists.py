@@ -145,4 +145,4 @@ email = 'bhaktigmail.com'
 if email.find("@") == -1:
     print("character not found,try different char")
 else:
-    print(email[:email.find("@")])
+    print(email[ :email.find("@")])
