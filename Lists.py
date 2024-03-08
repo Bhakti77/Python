@@ -140,10 +140,9 @@ def title1(str):
 op = title1("how are you")
 print(op) #['How', 'Are', 'You']
 print(" ".join(op)) #How Are You
- 
 #que 
 email = 'bhaktigmail.com'
 if email.find("@") == -1:
-    print("character not found,try different")
+    print("character not found,try different char")
 else:
     print(email[:email.find("@")])

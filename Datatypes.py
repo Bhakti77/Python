@@ -12,10 +12,10 @@ print("\nType of c: ", type(c))
 #Sequence Data Type in Python
 #String, list,tuple
 String1 = 'Welcome to the Geeks World'
-print("String with the use of Single Quotes: ") 
+print("strings with the use of Single Quotes: ") 
 print(String1) 
 String1 = "I'm a Geek"
-print("\nString with the use of Double Quotes: ") 
+print("\nString with the use of Double Quotes : ") 
 print(String1) 
 print(type(String1)) 
 
