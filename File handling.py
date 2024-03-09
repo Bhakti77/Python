@@ -42,5 +42,16 @@ def read_file(file_path):
     except IOError:
         print("Error:could not read file")
 
+
+def append_text_to_file(file_path,text):
+    try:
+        file = open(file_path,'a')
+        file.write(text)
+        print("Appened successfully")
+    except:
+        print("Error:could not append to file")
+
+
 create_file(filepath)
 read_file(filepath)
+append_text_to_file(filepath,"\n Bhakti Padwal")
