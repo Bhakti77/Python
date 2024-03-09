@@ -52,6 +52,6 @@ print('n' in t4) #False
 print(len(t3))
 print(min(t3))
 print(max(t3))
-print(sorted(t3,reverse=True)) #not permanent op , will create new list
+print(sorted(t3,reverse=True))
 print(t3)
 print(t3.index(2))
