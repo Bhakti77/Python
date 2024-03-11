@@ -106,6 +106,8 @@ finally:
     print("Done")
 
 #CREATING CUSTOM EXCEPTIONS
+'''why to create custom exceptions?
+when we need extra addition as per our requirement and do not need simple messages'''
 class MyOwnException(Exception):
     def __init__(self, message):
         print(message)

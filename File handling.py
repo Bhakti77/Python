@@ -7,14 +7,21 @@ End of Line characters like comma {,} or newline character.
 It ends the current line and tells the interpreter a new one has begun.'''
 
 #Python file open
-# file_path = "C:/Users/bhakt/OneDrive/Desktop/Python/geeks.txt"
-# file = open(file_path,'w+')
-# for eachline in file:
-#     print(eachline) 
-# file.write("Hey there\n")
-# file.write("You are overriding\n")
-# file.write("It allows us to write in a particular file")
-# print("done")
+file_path = "C:/Users/bhakt/OneDrive/Desktop/Python/geeks.txt"
+file = open(file_path,'w+')
+for eachline in file:
+    print(eachline) 
+file.write("Hey there\n")
+file.write("You are overriding\n")
+file.write("It allows us to write in a particular file")
+print("done")
+
+#Using with Statement: It's a good practice to use the with statement to open a file. 
+#It automatically closes the file when the block is exited, even if an exception occurs.
+
+with open('example.txt', 'r') as file:
+    content = file.read()
+    print(content)
 '''Where the following mode is supported:
 r: open an existing file for a read operation.
 w: open an existing file for a write operation. 
