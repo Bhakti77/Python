@@ -58,9 +58,12 @@ od['cherry'] = 3
 
 print(od)
 
+#this will not gurantee the order
 d = dict()
 d['banana'] = 1
 d['apple'] = 2
 d['cherry'] = 3
 
 print(d)
+
+#DEFAULTDICT
