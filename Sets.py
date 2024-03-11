@@ -32,3 +32,12 @@ print(s6[0]) #TypeError: 'set' object is not subscriptable
 
 s7 = {{1,2},{3,4}} #not allowed
 print(s7)
+
+
+#s1.Union(s2) - all elements in 2 sets removing duplicates
+#s1.Intersection(s2) - common in both sets
+#s1.difference(s2) - not common element from s1
+#s1.symmetric_difference(s2) - not common element from both sets
+#s1.isdisjoint(s2) 
+#s1.issubset(s2)
+#s1.superset(s2)

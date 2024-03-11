@@ -48,7 +48,7 @@ del dict1['City']
 print(dict1)
 
 #del dict1 #delete whole dictionary
-print(dict1)
+#print(dict1)
 
 dict1.clear()
 print(dict1)
