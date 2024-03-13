@@ -58,4 +58,3 @@ when you create object of a class'''
 
 
 sbi = Atm()
-sbi.__init__
